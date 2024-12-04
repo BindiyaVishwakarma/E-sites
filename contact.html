@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <button onclick="history.back()" style="margin: 10px; padding: 10px 20px; background-color: #f0f0f0; border: 1px solid #ccc; border-radius: 5px; cursor: pointer;">
+        ⬅ Back
+    </button>
+    <form>
+        <h2>CONTACT FORM</h2> 
+       <label for="name">NAME:-</label>
+       <input typee="name" id="name" placeholder="Enter your name" required>
+       <br><br>
+       <label for="phone">PHONE NU:-</label>
+       <input type="phone" id="phone" placeholder="Enter your phone number" required>
+       <br><br>
+       <label for="code">CODE:-</label>
+       <input type="code" id="code" placeholder="Enter your code" required>
+       <br><br>
+       <label for="size">SIZE:-</label>
+       <select id="size" required>
+        <option value="size">Enter your size</option>
+        <option value="size">S</option>
+        <option value="size">M</option>
+        <option value="size">XL</option>
+        <option value="size">XXL</option>
+      </select>
+       <br><br>
+       <label for="address">ADDRESS:-</label>
+       <textarea id="address" placeholder="Enter your address" cols="30" rows="4"></textarea>
+      <br><br>
+       <button id="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
